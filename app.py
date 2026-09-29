@@ -34,7 +34,7 @@ def draw_poster(n_layers=8, wobble=0.15, palette_mode="pastel", seed=0):
     np.random.seed(seed)
     fig, ax = plt.subplots(figsize=(6,8))
     ax.axis("off")
-    ax.set_facecolor((0.97, 0.97, 0.97))
+    ax.set_facecolor((0.85, 0.95, 0.85))
     palette = make_palette(6, mode=palette_mode)
     for _ in range(n_layers):
         cx, cy = random.random(), random.random()
